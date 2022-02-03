@@ -8,3 +8,5 @@ resource "azurerm_availability_set" "tier1-AvailabilitySet" {
     displayName = "AvailabilitySet"
   }
 }
+
+# "hi hasbhbdkhbv"
