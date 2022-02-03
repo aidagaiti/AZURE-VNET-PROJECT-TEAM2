@@ -1,5 +1,5 @@
 
-resource "azurerm_network_security_group" "demo_sec" {
+resource "azurerm_network_security_group" "demo1_sec" {
   name                = "devops-security-group"
   location            = azurerm_resource_group.project1.location
   resource_group_name = azurerm_resource_group.project1.name
@@ -19,7 +19,7 @@ resource "azurerm_virtual_network" "demo_vnet" {
   subnet {
     name           = "subnet2"
     address_prefix = "10.0.2.0/24"
-    security_group = azurerm_network_security_group.demo_sec.id
+    security_group = azurerm_network_security_group.demo1_sec.id
   }
 
   subnet {

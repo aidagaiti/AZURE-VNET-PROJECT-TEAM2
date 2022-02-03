@@ -1,5 +1,5 @@
 
-resource "azurerm_network_security_group" "demo_sec" {
+resource "azurerm_network_security_group" "demo22_sec" {
   name                = "demo_sec"
   location            = azurerm_resource_group.project1.location
   resource_group_name = azurerm_resource_group.project1.name
