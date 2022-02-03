@@ -23,8 +23,8 @@ resource "azurerm_virtual_network" "demo_vnet" {
   }
 
   subnet {
-      name = "subnet3"
-      address_prefix = "10.0.3.0/24"
+    name           = "subnet3"
+    address_prefix = "10.0.3.0/24"
   }
 
   tags = {
