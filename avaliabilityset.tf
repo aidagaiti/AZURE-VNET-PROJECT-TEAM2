@@ -10,3 +10,4 @@ resource "azurerm_availability_set" "tier1-AvailabilitySet" {
 }
 
 # "hi hasbhbdkhbv"
+hejwerrweqrf
