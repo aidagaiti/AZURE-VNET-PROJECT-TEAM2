@@ -5,8 +5,6 @@ resource "azurerm_availability_set" "Availabilityset" {
 
   tags {
     environment = "tierone"
-    displayName = "AvailabilitySet"
   }
 }
 
-# "hi hasbhbdkhbv"
