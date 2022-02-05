@@ -5,7 +5,7 @@ resource "azurerm_network_security_group" "securitygroup" {
   resource_group_name = azurerm_resource_group.project1.name
 
   security_rule {
-    name                       = "demo_sec"
+    name                       = "demo_sec1"
     priority                   = 100
     direction                  = "Inbound"
     access                     = "Allow"
@@ -17,7 +17,7 @@ resource "azurerm_network_security_group" "securitygroup" {
   }
 
   security_rule {
-    name                       = "demo_sec"
+    name                       = "demo_sec2"
     priority                   = 101
     direction                  = "Inbound"
     access                     = "Allow"
@@ -29,7 +29,7 @@ resource "azurerm_network_security_group" "securitygroup" {
   }
 
   security_rule {
-    name                       = "demo_sec"
+    name                       = "demo_sec3"
     priority                   = 103
     direction                  = "Inbound"
     access                     = "Allow"
