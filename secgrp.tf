@@ -33,7 +33,7 @@ resource "azurerm_network_security_group" "demo22_sec" {
     priority                   = 103
     direction                  = "Inbound"
     access                     = "Allow"
-    protocol                   = "ssh"
+    protocol                   = "*"
     source_port_range          = "22"
     destination_port_range     = "22"
     source_address_prefix      = "*"
